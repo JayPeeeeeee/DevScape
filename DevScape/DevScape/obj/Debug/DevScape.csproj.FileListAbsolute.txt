@@ -1,0 +1,6 @@
+D:\Jason\DevScape\DevScape\bin\Debug\DevScape.exe.config
+D:\Jason\DevScape\DevScape\bin\Debug\DevScape.exe
+D:\Jason\DevScape\DevScape\bin\Debug\DevScape.pdb
+D:\Jason\DevScape\DevScape\obj\Debug\DevScape.csprojResolveAssemblyReference.cache
+D:\Jason\DevScape\DevScape\obj\Debug\DevScape.exe
+D:\Jason\DevScape\DevScape\obj\Debug\DevScape.pdb
