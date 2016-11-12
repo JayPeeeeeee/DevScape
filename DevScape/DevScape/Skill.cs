@@ -45,7 +45,7 @@ namespace DevScape
             {
                 if((value >= 0) && (value <= 5))
                 {
-                    Rating = (int)((value / 0.25) + 0.5) * 5;
+                    Rating = (int)value * 20;
                 }
                 else
                 {
@@ -79,7 +79,6 @@ namespace DevScape
         public void Upgrade(double stars)
         {
             Rating = Rating + (int)(stars * 20);
-            //this.Stars = this.Stars + stars;
         }
 
         public void Downgrade(int rate)
@@ -90,7 +89,6 @@ namespace DevScape
         public void Downgrade(double stars)
         {
             Rating = Rating - (int)(stars * 20);
-            //this.Stars = this.Stars - stars;
         }
 
         public override string ToString()

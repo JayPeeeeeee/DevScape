@@ -43,14 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
     <Compile Include="Business.cs" />
     <Compile Include="BusinessSkill.cs" />
+    <Compile Include="ContactInfo.cs" />
+    <Compile Include="Continent.cs" />
+    <Compile Include="Country.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Gender.cs" />
     <Compile Include="Language.cs" />
+    <Compile Include="Nationality.cs" />
+    <Compile Include="ObjectCloner.cs" />
+    <Compile Include="Passport.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgrammingSkill.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="Projects.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Skill.cs" />
+    <Compile Include="SkillAlreadyExistsException.cs" />
     <Compile Include="Skills.cs" />
+    <Compile Include="WorkExperience.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
